@@ -1,0 +1,10 @@
+flask>=2.0
+flask-cors
+numpy
+# Optional: install TensorFlow if you want to use the real .h5 model
+# tensorflow==2.11.0
+
+# Note: The frontend (sign-detection.html) loads MediaPipe from the browser CDN
+# so you do not need MediaPipe in Python. To enable real model predictions,
+# install TensorFlow and ensure `gesture_static_model.h5` is present next to `app.py`.
+
